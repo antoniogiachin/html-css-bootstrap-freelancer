@@ -19,3 +19,15 @@
 .underscore{
     height: 5px;
 }
+
+.ms_side{
+    height: 5px;
+}
+
+.ms_lh-big{
+    line-height: 100px;
+}
+
+.ms_bg-gr{
+    background-color: #1abc9b;
+}
