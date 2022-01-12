@@ -1,5 +1,5 @@
 #jumbotron{
-    padding-top: 100px;
+    padding: 100px 0px;
 }
 
 .header-box{
@@ -33,5 +33,9 @@
 }
 
 .ms_bg-bl{
-    background-color: #3B546D;
+    background-color: #2B3C4E;
+}
+
+.ms_bg-bl2{
+    background-color: #3A546D
 }
