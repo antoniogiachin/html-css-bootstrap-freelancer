@@ -40,3 +40,13 @@
 .ms_bg-bl2{
     background-color: #3A546D
 }
+
+.ms_input{
+    border: none;!important
+
+}
+
+/* modifiche al codice bootstrap, non raccomandabile */
+.navbar-dark .navbar-nav .nav-link.active:hover{
+    color:#1abc9b
+}
