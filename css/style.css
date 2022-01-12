@@ -1,34 +1,20 @@
+/* jumbotron per fixed navbar */
 #jumbotron{
     padding-top: 100px;
     padding-bottom: 50px;
 }
 
-.header-box{
-    width: 100%;
-    height: 80px;
-    min-height: 80px;
-}
-
-.jumbo-box{
-    width: 100%;
-    height: 600px;
-    min-height: 600px;
-}
-
-.jumbo-slimbox{
-    width: 100%;
-    height: 400px;
-    min-height: 400px;
-}
-
+/* barre stella */
 .ms_side{
     height: 5px;
 }
 
+/* line heigth jumbo */
 .ms_lh-big{
     line-height: 100px;
 }
 
+/* bg color  */
 .ms_bg-gr{
     background-color: #1abc9b;
 }
@@ -41,11 +27,13 @@
     background-color: #3A546D
 }
 
+/* stilizzazione input */
 .ms_input{
     border: none;!important
 
 }
 
+/* hover */
 .bi.bi-plus-circle{
     font-size: 5rem;
     display:none;
