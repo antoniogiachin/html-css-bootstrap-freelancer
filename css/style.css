@@ -46,6 +46,25 @@
 
 }
 
+.bi.bi-plus-circle{
+    font-size: 5rem;
+    display:none;
+    z-index: 999;
+    transition: display 1s;
+}
+
+.ms_col:hover .bi.bi-plus-circle{
+    display: block;
+}
+
+.ms_col:hover .img-fluid{
+    filter: opacity(0.7);
+}
+
+.ms_col .img-fluid{
+    transition: all 0.5s;
+}
+
 /* modifiche al codice bootstrap, non raccomandabile */
 .navbar-dark .navbar-nav .nav-link.active:hover{
     color:#1abc9b
