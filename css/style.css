@@ -28,8 +28,8 @@
 }
 
 /* stilizzazione navbar */
-.ms_nav-hover{
-    color: #fff;
+.ms_nav-link{
+    color: #fff !important;
 }
 /* stilizzazione input */
 .ms_input{
@@ -37,6 +37,10 @@
 }
 
 /* hover */
+.navbar-nav .ms_nav-link:hover{
+    color:#1abc9b !important;
+}
+
 .bi.bi-plus-circle{
     font-size: 5rem;
     display:none;
@@ -54,9 +58,4 @@
 
 .ms_col .img-fluid{
     transition: all 0.5s;
-}
-
-/* modifiche al codice bootstrap, non raccomandabile */
-.navbar-dark .navbar-nav .nav-link.active:hover{
-    color:#1abc9b
 }
