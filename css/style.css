@@ -27,13 +27,20 @@
     background-color: #3A546D
 }
 
+/* stilizzazione navbar */
+.ms_nav-hover{
+    color: #fff;
+}
 /* stilizzazione input */
 .ms_input{
     border: none;!important
-
 }
 
 /* hover */
+.navbar-nav .ms_nav-hover:hover {
+    color:#1abc9b
+}
+
 .bi.bi-plus-circle{
     font-size: 5rem;
     display:none;
@@ -51,9 +58,4 @@
 
 .ms_col .img-fluid{
     transition: all 0.5s;
-}
-
-/* modifiche al codice bootstrap, non raccomandabile */
-.navbar-dark .navbar-nav .nav-link.active:hover{
-    color:#1abc9b
 }
